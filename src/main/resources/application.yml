@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: aws-deploy
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
