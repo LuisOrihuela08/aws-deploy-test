@@ -1,0 +1,9 @@
+{
+  "build": {
+    "type": "maven",
+    "goal": "clean package -DskipTests"
+  },
+  "deploy": {
+    "jarName": "target/aws-deploy-0.0.1-SNAPSHOT.jar"
+  }
+}
