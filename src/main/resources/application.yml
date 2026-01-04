@@ -4,3 +4,5 @@ spring:
 springdoc:
   swagger-ui:
     path: /swagger-ui-custom.html
+server:
+  forward-headers-strategy: framework
